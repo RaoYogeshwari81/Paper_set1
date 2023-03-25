@@ -4,7 +4,7 @@ function reverseString(str) {
   var reverseArray = splitString.reverse(); 
   var joinArray = reverseArray.join(""); 
   console.log(joinArray);
-  return joinArray; // "olleh"
+  return joinArray; 
 }
 
-reverseString("hello");
+reverseString("hello Yogeshwari");
