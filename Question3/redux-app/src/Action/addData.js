@@ -1,8 +1,5 @@
-export const addData = (data) => (
-  
-    {
-      type: "addData",
-  
-      payload: data,
-    }
-  )
+export const addData = (data) => ({
+  type: "addData",
+
+  payload: data,
+});
