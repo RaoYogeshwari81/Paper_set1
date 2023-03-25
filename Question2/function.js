@@ -1,8 +1,8 @@
-
 function array() {
-var a = [10,20,30,40,50]
-var new_a = a.map((_,i,_a)=> _a.slice(i).reduce((x,y)=>x+y))
+var a = [10,20,30,40,50];
+var new_a = a.map((_,i,_a)=> _a.slice(i).reduce((x,y)=>x+y));
 console.log({a,new_a});
 return new_a;
 }
   
+array();
